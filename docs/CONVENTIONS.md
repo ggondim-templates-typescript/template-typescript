@@ -134,5 +134,16 @@ Conventions are classified in different _types_ which may be extended or overrid
   | `gruntfuggly.todo-tree` | To easily list TODO's in vscode |
   | `shardulm94.trailing-spaces` | For highlighting trailing whitespaces |
   | `visualstudioexptteam.vscodeintellicode` | To help autocompletion |
+  | `oouo-diogo-perdigao.docthis` | To help JSDoc generation |
+  | `mikestead.dotenv` | Support for dotenv files syntax |
+  | `dbaeumer.vscode-eslint` | To make sure .eslintrc will be followed |
+  | `orkhanjafarovr.vscode-here-and-now` | Quickly installation of missing packages directly from code |
+  | `xabikos.javascriptsnippets` | JS snippets for ES6 |
+  | `cmstead.js-codeformer` | A JavaScript/TypeScript refactoring and code automation tool |
+  | `prosser.json-schema-2020-validation` | JSON Schema validation |
+  | `eg2.vscode-npm-script` | npm support for VS Code |
+  | `abhijoybasak.npm-audit` | View npm audit security report in visual format |
+  | `christian-kohler.npm-intellisense` | Visual Studio Code plugin that autocompletes npm modules in import statements. |
+  | `mskelton.npm-outdated` | Help highlighting outdated packages. |
 
   </details>
