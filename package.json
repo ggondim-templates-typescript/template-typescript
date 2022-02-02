@@ -1,11 +1,12 @@
 {
   "name": "template-javascript",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A general JavaScript project template using some opinionated conventions.",
   "readme": "README.md",
   "main": "",
   "scripts": {
     "prepare": "husky install",
+    "release": "npx standard-version",
     "hook:commit-msg": "npx --no -- commitlint --edit $1",
     "hook:pre-commit": "npm run lint",
     "lint": "eslint ./src/*.js --format stylish"
@@ -31,6 +32,7 @@
     "eslint": "^8.8.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "standard-version": "^9.3.2"
   }
 }
