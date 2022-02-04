@@ -6,6 +6,7 @@ module.exports = {
     '/dist/**/*',
     '/**/*.test.js',
     '/node_modules/**/*',
+    '.eslintrc.js'
   ],
   env: {
     es6: true,
