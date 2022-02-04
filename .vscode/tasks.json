@@ -7,6 +7,12 @@
       "problemMatcher": ["$eslint-stylish"],
       "label": "npm: lint",
       "detail": "eslint"
+    },
+    {
+      "type": "npm",
+      "label": "tsc: build",
+      "script": "ts:build",
+      "problemMatcher": "$tsc",
     }
   ]
 }
