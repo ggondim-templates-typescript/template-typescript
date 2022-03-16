@@ -1,13 +1,15 @@
 {
   "include": [
-    "./src/**/*"
+    "./src/**/*.ts"
   ],
   "exclude": [
     "dist",
     "node_modules",
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "package.json"
   ],
   "compilerOptions": {
+    "esModuleInterop": true,
     "noImplicitAny": false,
     "outDir": "./dist",
     "declaration": true,
